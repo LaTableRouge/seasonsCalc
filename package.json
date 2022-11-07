@@ -1,0 +1,26 @@
+{
+  "name": "@mlnop/seasonscalc",
+  "version": "1.0.1",
+  "description": "Return seasons based on equinoxes and current date",
+  "main": "seasonsCalc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MLNOP/seasonsCalc.git"
+  },
+  "keywords": [
+    "seasons",
+    "equinoxes",
+    "astronomy",
+    "math",
+    "calculation"
+  ],
+  "author": "MLNOP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MLNOP/seasonsCalc/issues"
+  },
+  "homepage": "https://github.com/MLNOP/seasonsCalc#readme"
+}
