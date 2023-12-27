@@ -7,6 +7,7 @@ Dev insipired by the [php version](https://gist.github.com/derickr/f32dd7a05d5c0
 
 ```javascript
 const actualSeason = seasonsCalc()
+const datedSeason = seasonsCalc(new Date('2023-12-22 12:21:00'))
 ```
 
 seasonsCalc is also available as an NPM package:
@@ -24,6 +25,12 @@ const seasonsCalc = require('@mlnop/seasonscalc')
 Returns a string with the season like "winter", "spring", "summer" or "autumn"
 
 ## Changelog
+
+#### 2.0.0 &mdash; 27/12/2023
+
+- You can now add parameter when calling the function
+- Fix "Returns undefined in winter" error ([issue](https://github.com/LaTableRouge/seasonsCalc/issues/1))
+- Fix equinox datas ([issue](https://github.com/LaTableRouge/seasonsCalc/issues/2))
 
 #### 1.0.0 &mdash; 07/11/2022
 

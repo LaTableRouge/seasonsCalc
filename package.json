@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MLNOP/seasonsCalc.git"
+    "url": "git+https://github.com/LaTableRouge/seasonsCalc.git"
   },
   "keywords": [
     "seasons",
@@ -17,10 +17,10 @@
     "math",
     "calculation"
   ],
-  "author": "MLNOP",
+  "author": "LaTableRouge",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MLNOP/seasonsCalc/issues"
+    "url": "https://github.com/LaTableRouge/seasonsCalc/issues"
   },
-  "homepage": "https://github.com/MLNOP/seasonsCalc#readme"
+  "homepage": "https://github.com/LaTableRouge/seasonsCalc#readme"
 }
