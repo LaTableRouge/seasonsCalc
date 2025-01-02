@@ -5,19 +5,19 @@ Dev insipired by the [php version](https://gist.github.com/derickr/f32dd7a05d5c0
 
 ## Usage example
 
-```javascript
-const actualSeason = seasonsCalc()
-const datedSeason = seasonsCalc(new Date('2023-12-22 12:21:00'))
-```
-
-seasonsCalc is also available as an NPM package:
+seasonsCalc is available as an NPM package:
 
 ```bash
 npm i @mlnop/seasonscalc --save-dev
 ```
 
-```js
+```javascript
 const seasonsCalc = require('@mlnop/seasonscalc')
+// OR
+import seasonsCalc from '@mlnop/seasonsCalc'
+
+const actualSeason = seasonsCalc()
+const datedSeason = seasonsCalc(new Date('2023-12-22 12:21:00'))
 ```
 
 ## Reference
@@ -25,6 +25,10 @@ const seasonsCalc = require('@mlnop/seasonscalc')
 Returns a string with the season like "winter", "spring", "summer" or "autumn"
 
 ## Changelog
+
+#### 3.0.0 &mdash; 02/01/2025
+
+- Add TypeScript support and unit tests
 
 #### 2.0.0 &mdash; 27/12/2023
 
