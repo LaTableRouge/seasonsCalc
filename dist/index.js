@@ -24,6 +24,7 @@ __export(index_exports, {
 });
 module.exports = __toCommonJS(index_exports);
 var degsToRads = (deg) => deg * Math.PI / 180;
+var isDateValid = (date) => date instanceof Date && !isNaN(date.getTime());
 var calculateJDE0 = (year, equinox, yearTables) => {
   const table = year < 1e3 ? yearTables.yearTable0 : yearTables.yearTable2000;
   const y = year < 1e3 ? year / 1e3 : (year - 2e3) / 1e3;
@@ -93,6 +94,9 @@ var calculateSeason = (now, equinoxDates) => {
   }
 };
 var seasonsCalc = (now = /* @__PURE__ */ new Date()) => {
+  if (!isDateValid(now)) {
+    throw new Error("Invalid date object");
+  }
   const equinoxDates = {};
   const currentYear = now.getFullYear();
   const equinoxes = ["mar", "jun", "sep", "dec"];
