@@ -26,7 +26,7 @@ Returns a string with the season like "winter", "spring", "summer" or "autumn"
 
 ## Changelog
 
-#### 3.0.0 &mdash; 02/01/2025
+#### 3.0.1 &mdash; 02/01/2025
 
 - Add TypeScript support and unit tests
 
