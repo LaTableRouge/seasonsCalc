@@ -1,6 +1,6 @@
 {
   "name": "@mlnop/seasonscalc",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Return seasons based on equinoxes and current date",
   "main": "dist/index.js",
   "exports": {
