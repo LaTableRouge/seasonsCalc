@@ -22,7 +22,6 @@ jobs:
     #   Problem where the test is failing due to timezone and location
     #   - run: npm test
 
-      # Zip the theme into a clean release
       - name: Zip release
         uses: thedoctor0/zip-release@0.7.6
         with:
